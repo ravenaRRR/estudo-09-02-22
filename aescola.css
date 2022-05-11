@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+img{
+  
+  width: 300px;
+  margin-left: 20px;
+ border-radius: 25%;
+
+  
+}
+
+
+div.imgs{
+   display: flex;
+    padding-left: 400px;
+    padding-right: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 32px;
+ 
+  
+}
+
+body{
+  background: linear-gradient(to left, red,skyblue, white);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main.cards {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 500px;
+    padding-right: 500px;
+    
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #8B0000;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 500px;
+    margin-left: 50px;
+    margin-top: 2px;
+    color: gray;
+    height: 300px ;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
+  color: white;
+}
+
+h3 {
+    font-size: 100px;;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+  color: white;
+}
+
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
+  color: white;
+    
+}
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+
+main.cards section.card.contact button {
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+main.cards section.card.shop button {
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+main.cards section.card.about button {
+    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+
+main.cards section.card.contact {
+    box-shadow: 20px 20px 50px -30px #DBC4FF;
+}
+main.cards section.card.shop {
+    box-shadow: 20px 20px 50px -30px #AFD6FF;
+}
+main.cards section.card.about {
+    box-shadow: 20px 20px 50px -30px #FFC1D5;
+}
+
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  padding-top: var(--nav-height);
+}
+
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+img{
+  max-width: 100%;
+}
+
+.main-color{
+  color: var(--main-color);
+}
+
+.container{
+  max-width: 2000px;
+  padding: 0 40px;
+  margin: auto;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+main.container {
+   background:#8B0000 ;
+   max-width: 1700px ;
+   /*min-height: 50vh;*/
+   padding: 20ren;
+   box-shadow: 5px, 5px, 15px, rgba(0,0,0 0.2);
+   margin: 20px;
+   margin-bottom:-155px;
+   height: 1300px ;
+   width: 1250px;
+   border-radius: 8px;
+}
+
+
+main h2 {
+   font-weight: 600;
+   margin: 20px;
+   position: center;
+
+}
+
+
+
+main h2::before {
+content: 'ㅤﾠㅤㅤㅤㅤㅤㅤㅤㅤㅤ';
+position: center;
+height: 8px;
+bottom: 10px;
+left: 0;
+border-radius: 8px;
+background: linear-gradient(45deg, #F0E68C, 	#DCDCDC );}
+
+
+
+
+.nav-pt1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  height: 80px;
+}
+
+.nav{
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-color);
+  height: var(--nav-height);
+}
+
+.nav a{
+  color: rgba(159, 210, 241, 0.925);
+  font-size: 20px;
+  
+
+
+}
+
+
+.nav a .fa-brands.fa-instagram{
+font-size: 40px;
+
+
+}
+
+
+.nav a .fa-brands.fa-facebook-f{
+
+font-size: 30px;
+
+}
+
+
+a .logo{
+ 
+  font-weight: 900;
+
+  padding-top: -20px;
+  width: 100px;
+  padding-right: 20px;
+}
+
+.nav-menu{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-menu li ~ li{
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.nav-menu a{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nav-menu a:hover{
+  color: var(--main-color);
+}
+
+.nav-menu a.btn:hover, 
+a.logo:hover,
+a.movie-item:hover{
+  color: unset;
+}
+
+
+span.etecparagrafo{
+
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding-bottom:5px;
+  padding-top:30px;  
+  align-items: center;
+
+
+  
+   
+  
+ 
+}
+
+p font.textinho{
+  font-size: 20px;
+    max-width: 500px;
+    font-family:'Poppins', sans-serif;
+   padding-left: 0;}
+    
+
+span.etec{
+    display:  block;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+ 
+
+      text-align: left;
+
+   
+   
+  
+}
+
+
+span.etecparagrafo1{
+  display:  block;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  padding-bottom:5px;
+  padding-top:2px;  
+  align-items: center;
+ 
+ 
+}
+
+.rodape{
+  width: 1942px;
+  margin-top: 100px;
+}
+
+
+main.container4{
+  
+  display: flex;
+  margin: 0px;
+  margin-top: 0px;
+ margin-left: 50px;
+  flex-direction: row;
+  width: 1895px;
+  height: 80px;
+  padding-bottom: auto;
+
+
+}
+
+main.container4 div{
+  display: flex;
+  flex-direction:  column;
+  align-items:  baseline ;
+  text-align:  right;
+  background: white;
+  padding: 1rem 3rem;
+   padding-bottom: auto;
+ width: 2800px;
+
+  
+}
